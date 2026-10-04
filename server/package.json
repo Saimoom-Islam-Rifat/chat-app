@@ -1,0 +1,35 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "A web based chat application.",
+  "keywords": [
+    "node.js",
+    "express.js",
+    "mongoose",
+    "mongodb"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "gfgfhgh"
+  },
+  "license": "ISC",
+  "author": "Saimoom Islam Rifat",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch --watch-preserve-output server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.9.5"
+  },
+  "allowScripts": {
+    "bcrypt@6.0.0": true
+  }
+}
